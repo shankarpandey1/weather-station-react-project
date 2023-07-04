@@ -6,7 +6,7 @@ const AppBody = () => {
     const [state, setState] = useContext(AppContext);
 
 
-    if (!state?.selctedCityInfo?.base) {
+    if (!state?.selctedCityInfo?.name) {
         return <h1
             className="text-explain"
         > please write the city name
